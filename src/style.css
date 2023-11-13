@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    /* box-sizing: border-box; */
+}
+
+body {
+    padding: 70px;
+    margin: 30px;
+    /* background-color: black; */
+
+    /* margin: 3;
+    background: linear-gradient(to right,#00AAFF, #00FF6c); */
+}
+
+.header{
+    text-align: center;
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.future-tasks{
+    display:flex;
+    margin: 10px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+.future-elements{
+    padding: 20px;
+    margin: auto;
+}
+
+
+.current-tasks{
+    display: flex;
+    margin: 10px;
+
+    padding: 20px;
+    text-align: center;
+    background-color: bisque;
+
+    /* color: black;
+    margin: 50px;
+    border: 10px solid black;      */
+}
+
+.curret-element{
+    padding: 20px;
+    margin: auto;
+
+
+}
+
+.btn{
+    margin: auto;
+    border: 2px solid aqua;
+    border-radius: 5%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+}
+
+
+
+.add-tasks{
+    /* height: 10px;
+    width: 10px; */
+    /* padding: 20px;
+    color: black;
+    margin: 50px;
+    border: 10px solid black; */
+
+}
+.toDo-grid{
+    /* padding: 40px; */
+
+    /* margin: 50px;
+    border: 10px solid black; */
+    /* grid-template-columns: repeat(2, 6rem); */
+    /* grid-template-rows: minmax(7rem, auto) repeat(, 6rem);  */
+
+}
+
+
+/* .toDo-grid .add-tasks{
+    grid-template-columns: repeat(1, 6rem);
+    grid-column: span 2;
+
+} */
