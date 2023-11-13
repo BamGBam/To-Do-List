@@ -53,7 +53,7 @@ body {
 
 .btn{
     margin: auto;
-    border: 2px solid aqua;
+    border: 2px solid;
     border-radius: 5%;
     width: 100px;
     height: 100px;

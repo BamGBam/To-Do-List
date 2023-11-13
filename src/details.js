@@ -17,7 +17,7 @@ function FinalLook(){
             <div className="future-elements">
                 <h2>Add due date</h2>
                 <input className='quantity-input' type="number"/>
-            </div>
+            </div>    
             <button className="btn"> Add </button>
         </div>
         <div className="current-tasks">
