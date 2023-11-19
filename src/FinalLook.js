@@ -4,7 +4,6 @@
 // }
 import './style.css'
 
-
 function FinalLook(){
     return(
         <>
@@ -31,6 +30,6 @@ function FinalLook(){
         </div>  
         </>  
         )
-}
+} 
 
 export default FinalLook;
