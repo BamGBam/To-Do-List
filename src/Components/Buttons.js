@@ -15,6 +15,13 @@ const AddButton = () =>{
     )
 }
 
+const AlerButton = () =>{
+    <button onClick={() => alert("You shouldn't be here")}>
+    Alert button
+    </button>
+
+}
+
 const Buttons = () =>{
     return(
     <div>

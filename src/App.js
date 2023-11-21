@@ -6,7 +6,7 @@ import FinalLook from './FinalLook';
 // import Comment from './Components/Insertion';
 // import Date from './Components/Date';
 // import Tools from './Components/Tools';
-// import Buttons from './Components/Buttons';
+import Buttons from './Components/Buttons';
 // import Tasks from './Components/PropsPractice';
 // import Alert from './Components/Alert';
 import { Alert } from './Components/Alert';
@@ -22,7 +22,7 @@ function App() {
       {/* <Welcome/> */}
       {/* <Comment/> */}
       {/* <Date/> */}
-      {/* <Buttons/> */}
+      <Buttons/>
       {/* <Tools name = "Bamdad" tool ="AutoCad"/> */}
       {/* <Tasks/> */}
       <Alert alertItem = {alertItem}/>
