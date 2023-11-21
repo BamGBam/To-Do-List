@@ -18,11 +18,12 @@ function App() {
 
   return (
     <div className="App">
-      <FinalLook/>
+      {/* <FinalLook /> */}
+      <FinalLook typebutton = {<Buttons/>}/>
       {/* <Welcome/> */}
       {/* <Comment/> */}
       {/* <Date/> */}
-      <Buttons/>
+      {/* <Buttons/> */}
       {/* <Tools name = "Bamdad" tool ="AutoCad"/> */}
       {/* <Tasks/> */}
       <Alert alertItem = {alertItem}/>
