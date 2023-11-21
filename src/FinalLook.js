@@ -17,7 +17,7 @@ function FinalLook(){
                 <h2>Add due date</h2>
                 <input className='quantity-input' type="number"/>
             </div>    
-            <button className="btn"> Add </button>
+            <button onClick={() => alert('You Added a new Task')} className="btn"> Add </button>
         </div>
         <div className="current-tasks">
             <div className="curret-element">
@@ -26,7 +26,7 @@ function FinalLook(){
             <div className="curret-element">
                 <h2>Due date</h2>
             </div>
-            <button className="btn"> Done</button>
+            <button onClick={() => alert('Nice job')} className="btn"> Done</button>
         </div>  
         </>  
         )
