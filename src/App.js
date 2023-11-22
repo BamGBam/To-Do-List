@@ -14,7 +14,9 @@ import { useState } from 'react';
 
 function App() {
   const [alertItem, setAlertItem] =  useState([ {type: 'type 1', sound: 'Fire Alert'}, 
-  {type: 'type 2', sound: 'Water Alert'}, {type: 'type 3', sound: 'Safety Alert'}]) 
+  {type: 'type 2', sound: 'Water Alert'}, {type: 'type 3', sound: 'Safety Alert'}]); 
+  const [alertVisible, setAlertVisible] = useState(false);
+
 
   return (
     <div className="App">
@@ -24,9 +26,11 @@ function App() {
       {/* <Comment/> */}
       {/* <Date/> */}
       {/* <Buttons/> */}
+      { alertVisible && <p>This is new type of alert</p>}
+      <button onClick={ () => setAlertVisible(true)}> This is alert</button>
       {/* <Tools name = "Bamdad" tool ="AutoCad"/> */}
       {/* <Tasks/> */}
-      <Alert alertItem = {alertItem}/>
+      {/* <Alert alertItem = {alertItem}/> */}
     </div>
   );
 }

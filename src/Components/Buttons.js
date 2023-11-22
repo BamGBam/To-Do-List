@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { useState } from 'react'
+// import { Alert } from './Alert'
 
 const DoneButton = () =>{
     return(
@@ -45,13 +46,25 @@ const OnScreen = () =>{
     );
 }
 
+const AlertButton = () => {
+    return(
+     <>
+        <div>
+            <alert>hooooys</alert>
+        </div>
+        <button> This is Alert button</button>
+    </>
+    )
+}
+
 const Buttons = () =>{
     return(
     <div>
     {/* <DoneButton/>
     <AddButton/>
     < PrintButton/> */}
-    <OnScreen/>
+    {/* <OnScreen/> */}
+    {/* <AlertButton/> */}
     </div>
     )
 }
