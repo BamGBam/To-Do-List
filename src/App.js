@@ -11,6 +11,7 @@ import Buttons from './Components/Buttons';
 // import Alert from './Components/Alert';
 import { Alert } from './Components/Alert';
 import { useState } from 'react';
+import Form from './Components/Form';
 
 function App() {
   const [alertItem, setAlertItem] =  useState([ {type: 'type 1', sound: 'Fire Alert'}, 
@@ -31,6 +32,7 @@ function App() {
       {/* <Tools name = "Bamdad" tool ="AutoCad"/> */}
       {/* <Tasks/> */}
       {/* <Alert alertItem = {alertItem}/> */}
+      <Form/>
     </div>
   );
 }
