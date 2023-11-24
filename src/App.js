@@ -12,6 +12,7 @@ import Buttons from './Components/Buttons';
 import { Alert } from './Components/Alert';
 import { useState } from 'react';
 import Form from './Components/Form';
+import StateFunction from './Components/State';
 
 function App() {
   const [alertItem, setAlertItem] =  useState([ {type: 'type 1', sound: 'Fire Alert'}, 
@@ -27,12 +28,14 @@ function App() {
       {/* <Comment/> */}
       {/* <Date/> */}
       {/* <Buttons/> */}
-      { alertVisible && <p>This is new type of alert</p>}
-      <button onClick={ () => setAlertVisible(true)}> This is alert</button>
+      {/* { alertVisible && <p>This is new type of alert</p>}
+      <button onClick={ () => setAlertVisible(true)}> This is alert</button> */}
       {/* <Tools name = "Bamdad" tool ="AutoCad"/> */}
       {/* <Tasks/> */}
       {/* <Alert alertItem = {alertItem}/> */}
-      <Form/>
+      {/* <Form/> */}
+      <StateFunction/>
+
     </div>
   );
 }
