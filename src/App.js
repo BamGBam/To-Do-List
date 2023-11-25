@@ -13,12 +13,15 @@ import { Alert } from './Components/Alert';
 import { useState } from 'react';
 import Form from './Components/Form';
 import StateFunction from './Components/State';
+import NavBar from './Components/NavBar';
+import Cart from './Components/Cart';
 
 function App() {
   const [alertItem, setAlertItem] =  useState([ {type: 'type 1', sound: 'Fire Alert'}, 
   {type: 'type 2', sound: 'Water Alert'}, {type: 'type 3', sound: 'Safety Alert'}]); 
   const [alertVisible, setAlertVisible] = useState(false);
 
+  const [cartItems, SetCartItems] = useState(['Task1', 'Task2'])
 
   return (
     <div className="App">
@@ -34,7 +37,9 @@ function App() {
       {/* <Tasks/> */}
       {/* <Alert alertItem = {alertItem}/> */}
       {/* <Form/> */}
-      <StateFunction/>
+      {/* <StateFunction/> */}
+      <NavBar cartItemCount={cartItems.length}/>
+      <Cart cartItems={cartItems} onClear={() => SetCartItems([])}/>
 
     </div>
   );
