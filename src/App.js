@@ -40,7 +40,6 @@ function App() {
       {/* <StateFunction/> */}
       <NavBar cartItemCount={cartItems.length}/>
       <Cart cartItems={cartItems} onClear={() => SetCartItems([])}/>
-
     </div>
   );
 }
