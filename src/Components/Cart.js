@@ -1,18 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Cart = ({ cartItems, onClear }) => {
-    return (
+// const myComp = cartItems.map((item) =>(
+//     <li key={index}>{item}</li>
+
+// ));
+
+const Cart = ({cartItems, onClear}) =>{
+    return(
         <>
-            <ul>
-                {cartItems.map(item => (
-                    <li key={item}>{item} </li>
-                ))}
-                <button onClick={onClear}>Clear</button>
-            </ul>
+        <div>Cart is :</div>
+        <ul>
+            {cartItems.map(item => <li key={item}>{item}</li>)}
+        </ul>
+        <button onClick={onClear}>CLEAR</button>
         </>
-    );
-};
+    )
+}
 
 Cart.propTypes = {
     cartItems: PropTypes.arrayOf(PropTypes.string).isRequired,

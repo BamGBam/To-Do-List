@@ -38,8 +38,9 @@ function App() {
       {/* <Alert alertItem = {alertItem}/> */}
       {/* <Form/> */}
       {/* <StateFunction/> */}
-      <NavBar cartItemCount={cartItems.length}/>
       <Cart cartItems={cartItems} onClear={() => SetCartItems([])}/>
+      <NavBar cartItemCount={cartItems.length} />
+
     </div>
   );
 }
