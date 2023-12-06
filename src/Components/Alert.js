@@ -15,7 +15,7 @@ export const Alert = ({alertItem, sound, type }) => {
   return (
     <div > 
       {alertItem.map((item) => (
-        <div onClick={() => console.log({item: item.type})}> {item.type}</div> 
+        <div onClick={() => console.log({item: item.type})}> {item.type} </div> 
       )
       )}
     </div>
