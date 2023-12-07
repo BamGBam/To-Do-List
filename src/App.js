@@ -67,7 +67,7 @@ function App() {
       {/* <Welcome/> */}
       {/* <Comment/> */}
       {/* <Date/> */}
-      {/* <Buttons/> */}
+      <Buttons/>
       {/* { alertVisible && <p>This is new type of alert</p>}
       <button onClick={ () => setAlertVisible(true)}> This is alert</button> */}
       {/* <Tools name = "Bamdad" tool ="AutoCad"/> */}
@@ -86,7 +86,7 @@ function App() {
 Processing:  the manipulation and control of information (data) within the computer system. The Central Processing Unit (CPU) is the "brain" of a computing device.  Manipulations are handled by the Control Unit, the Arithmetic Logic Unit and Temporary Storage. The Control Unit is the computer's "policeman" that directs the traffic of the computer's "thinking". The Arithmetic Logic Unit performs mathematical and logical computations, and the Temporary Storage (RAM) holds the "thoughts" of the CPU.
 
 Storage:  the means by which information can be "permanently" saved (until such time as you wish to delete it).  This storage may be a computer's internal or external storage. Storage usually occurs on a hard drive, flash drive, a CD, or a cloud account.
-
+    
 Output:  the displaying of information. Output may occur via a display monitor, audio file, hard-copy printing on paper, or printing as 3-D models. For our purposes, output will be accomplished when your program displays information on the monitor.
       </ExpandableText> */}
       {/* <input ref={ref} type="text" /> */}

@@ -48,8 +48,6 @@ useEffect(() =>{
                 <li> {user.name} 
                 <button onClick={() => deleteUser(user)}>Delete</button>
                 <button onClick={() => updateUser(user)}>Update</button>
-
-                
                 </li>))}
             </ul>
         </>
